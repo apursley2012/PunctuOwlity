@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PunctuOwlity</title><link rel="stylesheet" href="styles.css"></head>
+<body data-page="main">
+  <header class="topbar"><button class="icon-button back" aria-label="Go back">←</button><div class="topbar-menu"><button class="menu-button" type="button" aria-label="Open page menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="menu-panel" aria-label="Project pages"><a href="case-study.html">Case Study</a><a href="articles.html">Articles</a></nav></div></header>
+  <main class="main-page">
+    <div class="logo" role="img" aria-label="PunctuOwlity logo"></div>
+    <h1>Upcoming Events</h1>
+    <label class="search"><input id="eventSearch" type="search" placeholder="Search events..." aria-label="Search events"><span>⌕</span></label>
+    <section class="date-banner"><span>April 2025</span></section>
+    <div class="dotted"></div>
+    <nav class="tabs" aria-label="Event categories"><button class="active" data-category="all">All Events</button><button data-category="birthday">Birthdays</button><button data-category="appointment">Appointments</button><button data-category="trip">Trips</button></nav>
+    <div class="dotted"></div>
+    <section id="eventsGrid" class="events-grid" aria-live="polite"></section>
+    <div class="dotted end-divider"></div>
+  </main>
+  <a class="fab" href="add-event.html" aria-label="Add event">＋</a>
+  <script src="app.js"></script>
+</body>
+</html>
